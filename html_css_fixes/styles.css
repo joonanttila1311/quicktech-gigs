@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f3f5f9;
+  margin: 0;
+}
+.card {
+  max-width: 400px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  display: block;
+}
+.card-body {
+  padding: 16px;
+}
+.btn {
+  display: inline-block;
+  background: #1366d6;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+@media (max-width: 480px) {
+  .card {
+    max-width: 90vw;
+  }
+}
