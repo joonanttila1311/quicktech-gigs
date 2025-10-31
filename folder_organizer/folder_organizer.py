@@ -4,6 +4,10 @@ from pathlib import Path
 import shutil
 import socket
 
+__author__ = "Joona Anttila / QuickTech"
+__version__ = "1.0.0"
+__description__ = "Turvallinen työkalu tiedostojen automaattiseen siirtoon. Ei yhteyksissä Internettin tai datan keruuseen. || Safe offline file organizer - no internet access or data collection."
+
 socket.setdefaulttimeout(0.1)
 
 # Avaa kansiovalikko
