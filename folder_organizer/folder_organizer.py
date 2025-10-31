@@ -8,9 +8,9 @@ root = tk.Tk()
 root.withdraw()  # piilottaa pääikkunan
 folder_selected = filedialog.askdirectory(title="Valitse kansio järjesteltäväksi")
 
-proceed = input("⚠️ Are you sure you want to organize this folder? (y/n): ")
-if proceed.lower() != 'y':
-    print("❌ Cancelled by user.")
+proceed = input("⚠️ Haluatko varmasti järjestää tämän kansion? (k/e) | Are you sure you want to organize this folder? (y/n): ")
+if proceed.lower() not in ['y', 'k']:
+    print("❌ Peruutettu / Cancelled by user.")
     exit()
 
 if not folder_selected:
