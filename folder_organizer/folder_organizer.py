@@ -2,6 +2,9 @@ import tkinter as tk
 from tkinter import filedialog
 from pathlib import Path
 import shutil
+import socket
+
+socket.setdefaulttimeout(0.1)
 
 # Avaa kansiovalikko
 root = tk.Tk()
