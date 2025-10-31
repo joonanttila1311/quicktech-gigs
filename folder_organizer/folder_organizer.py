@@ -55,6 +55,7 @@ for file in target_folder.iterdir():
             ext_folder.mkdir(exist_ok=True)
             shutil.move(str(file), ext_folder / file.name)
             print(f"📦 Moved {file.name} → {ext_folder.name}/")
+            print("🎉 Folder organization complete — no files deleted.")
 
 
 print("🎉 Done!")
