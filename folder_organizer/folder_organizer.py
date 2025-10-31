@@ -1,8 +1,20 @@
-import os, shutil
+import tkinter as tk
+from tkinter import filedialog
 from pathlib import Path
+import shutil
 
-target_folder = Path.cwd()
-print(f"📁 Organizing folder: {target_folder}")
+# Avaa kansiovalikko
+root = tk.Tk()
+root.withdraw()  # piilottaa pääikkunan
+folder_selected = filedialog.askdirectory(title="Valitse kansio järjesteltäväksi")
+
+if not folder_selected:
+    print("❌ Et valinnut kansiota – ohjelma suljetaan.")
+    exit()
+
+target_folder = Path(folder_selected)
+print(f"📁 Järjestellään kansio: {target_folder}")
+
 
 category_map = {
     "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp"],
