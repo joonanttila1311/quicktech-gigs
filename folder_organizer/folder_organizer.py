@@ -6,7 +6,18 @@ import socket
 
 __author__ = "Joona Anttila / QuickTech"
 __version__ = "1.0.0"
-__description__ = "Turvallinen työkalu tiedostojen automaattiseen siirtoon. Ei yhteyksissä Internettin tai datan keruuseen. || Safe offline file organizer - no internet access or data collection."
+__description__ = (
+    "Turvallinen työkalu tiedostojen automaattiseen siirtoon. "
+    "Ei yhteyksissä Internetiin tai datan keruuseen. "
+    "|| Safe offline file organizer - no internet access or data collection."
+)
+
+# Näytetään tiedot käyttäjälle alussa
+print("=" * 60)
+print(f"📦 {__description__}")
+print(f"👤 Tekijä / Author: {__author__}")
+print(f"🔢 Versio / Version: {__version__}")
+print("=" * 60)
 
 socket.setdefaulttimeout(0.1)
 
