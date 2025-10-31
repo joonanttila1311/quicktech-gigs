@@ -13,7 +13,13 @@ category_map = {
     "Code": [".py", ".js", ".html", ".css", ".php", ".c", ".cpp", ".java"],
 }
 
+this_script = Path(__file__).resolve()
+
 for file in target_folder.iterdir():
+    # Älä siirrä itse ohjelmaa
+    if file.resolve() == this_script:
+        continue
+
     if file.is_file():
         ext = file.suffix.lower()
         for category, extensions in category_map.items():
@@ -29,6 +35,7 @@ for file in target_folder.iterdir():
             ext_folder.mkdir(exist_ok=True)
             shutil.move(str(file), ext_folder / file.name)
             print(f"📦 Moved {file.name} → {ext_folder.name}/")
+
 
 print("🎉 Done!")
 input("Press Enter to exit...")
