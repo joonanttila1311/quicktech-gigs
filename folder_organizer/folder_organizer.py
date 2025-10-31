@@ -4,7 +4,7 @@ from pathlib import Path
 import shutil
 import socket
 
-__author__ = "Joona Anttila / QuickTech"
+__author__ = "Joona Anttila / JA_Markkinoi"
 __version__ = "1.0.0"
 __description__ = (
     "Turvallinen työkalu tiedostojen automaattiseen siirtoon. "

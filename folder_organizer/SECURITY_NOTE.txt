@@ -1,0 +1,24 @@
+TURVALLISUUS- JA LÄPINÄKYVYYSHUOMIOTUS
+
+Tämä ohjelmisto toimii 100 % offline-tilassa.
+Se EI lataa, lue tai muokkaa tiedostojesi sisältöä.
+
+Se siirtää tiedostoja vain valitsemiesi kansioiden välillä.
+
+Lähdekoodi (folder_organizer.py) on sisällytetty läpinäkyvyyden takaamiseksi.
+
+Voit avata ja tarkastella sitä millä tahansa tekstieditorilla.
+
+Kehittäjä JA_Markkinoi | Versio 1.0.0
+
+
+SECURITY & TRANSPARENCY NOTICE
+
+This software works 100% offline. 
+It does NOT upload, read, or modify the contents of your files. 
+It only moves files between folders that you select.
+
+Source code (folder_organizer.py) is included for transparency.
+You can open and review it with any text editor.
+
+Developed by JA_Markkinoi | Version 1.0.0
