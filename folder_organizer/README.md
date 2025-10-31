@@ -1,5 +1,9 @@
 # Folder Organizer - Quick File Sorter
 
+“🧠 No installation needed. Works completely offline.
+🔒 Safe for personal and business data.
+✅ Verified open-source code included for inspection.”
+
 📦 Description:
 This tool automatically organizes all files in a selected folder into subfolders
 based on their type (documents, images, videos, etc.).
